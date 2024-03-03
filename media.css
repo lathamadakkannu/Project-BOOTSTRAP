@@ -1,0 +1,44 @@
+@media(min-width:320px){
+    /* .section{
+        padding: 3%;
+    } */
+    .navbar {
+        font-size:45px;
+    }
+    
+    .carousel-content{
+        flex-wrap: wrap;
+    }
+    .accordion-body h4{
+        font-size: 30px;
+    }
+
+    .para{
+        padding-left: 20px;
+        padding-top: 40px;
+        font-size: 40px;
+    }
+    .card{
+        font-size:30px;
+        padding:10px;
+    }
+}
+
+@media(min-width:1000px){
+    .navbar {
+        font-size:25px;
+    }
+    .carousel-content{
+        flex-wrap:nowrap;
+    }
+    .para{
+        padding-left:70px;
+        padding-top: 20px;
+        font-size: 28px;
+    }
+    .card{
+        font-size:25px;
+        padding:10px;
+    }
+    
+}

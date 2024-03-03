@@ -1,0 +1,333 @@
+<!DocType html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device_width initial scale=1.0">
+			<title>Bootstrap</title>
+
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+			
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="media.css">
+			</head>
+			
+			<body>
+
+                 <!--Header Section-->
+
+				        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Ice Cream</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
+                                </li>
+
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#about-section">About</a>
+                                </li>
+
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#card-section">Services</a>
+                                </li>
+
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#detail-section">Order</a>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown link
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <!--Carousel Section-->
+              <section id="home-section">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-content">
+                                <div class="col-lg-6 col-lg-md-1 col-12">
+                                    <img src="image/img1.jfif" class="d-block w-100" alt="...">
+                                </div>
+
+                                <div class="para">
+                                    <p>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It is usually made from dairy products, such as milk and cream, and often combined with fruits or other ingredients and flavours. It is typically sweetened with sugar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <div class="col-lg-6 col-lg-md-1 col-12">
+                                    <img src="image/img2.jfif" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="para">
+            
+                                    <p>Ice cream is one of the most commonly loved desserts on this planet. It has a creamy, sweet taste that many people love. Ice cream is delicious and famous, and it is made from dairy products.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <div class="col-lg-6 col-lg-md-1 col-12">
+                                    <img src="image/img3.jfif" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="para">
+                                
+                                    <p> Ice cream is known for its delicious taste and creamy texture, which can be very appealing to the senses. It comes in various flavors and can be enjoyed in different ways, such as in a cone, a cup, or as a topping for desserts.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+              </section>
+
+                <!--Accordion Section-->
+              <section id="about-section">
+                <h2 class="head">About</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"><h3>Cone - Ice Cream</h3></button>
+                        
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><h4>A fresh cone is crispy and delicious, and unlike a plastic or paper cup, is eco-friendlier as it doesn't end up in a landfill. Ice cream cones can also be made using a wide range of ingredients, leading to interesting flavors and textures.</h4></div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"><h3>Stick- Ice Cream</h3></button>
+                          
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><h4>Ice cream sticks are made up of wood because the wood is a bad conductor of heat . which does not allow to passing the heat. due to this the heat of surrounding atmosphere does not enter into the ice cream stick and the ice cream does not melt rapidly.</h4></div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><h3>Cup - Ice Cream</h3></button>
+                         
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><h4>Plastic ice cream cups are most widely known for their use with gelato, ice cream sundaes, and banana splits. They're so good for these treats because the clear plastic allows your customers to see all the toppings.</h4></div>
+                      </div>
+                    </div>
+                  </div>  
+                </section>
+
+                  <!--Card Section-->
+                  
+                  <section id="card-section">
+                    <h2 class="head">FLAVOURS</h2>
+                    <div class="row row-cols-md-1 row-cols-lg-3 g-4">
+                      <div class="card" style="width: 25rem;">
+                        <img src="image/img4.jfif" class="card-img-top" alt="...">
+                      </div>
+                  
+                    <div class="card" style="width: 25rem;">
+                      <img src="image/img5.jfif" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 25rem;">
+                      <img src="image/img6.jfif" class="card-img-top" alt="...">
+                    </div>
+                  
+                    <div class="card" style="width: 25rem;">
+                      <img src="image/img7.jfif" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 25rem;">
+                      <img src="image/img8.jfif" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 25rem;">
+                      <img src="image/img9.jfif" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 25rem;">
+                      <img src="image/img10.jfif" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 25rem;">
+                      <img src="image/img11.jfif" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card" style="width: 25rem;">
+                      <img src="image/img12.jfif" class="card-img-top" alt="...">
+                    </div>
+
+                  </div>
+                </section>
+
+                <section id="detail-section">
+                  <div class="detail-container">
+                    <h2 class="head">CHOOSE YOUR FAVOURITE</h2>
+                    <div class="row row-cols-md-2 row-cols-lg-4 g-4">
+                      <div class="detail-col">
+                        <div class="card" style="width: 18rem;">
+                          <img src="image/detail1.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h4 class="card-title">No-Churn Ice Cream Recipe</h4>
+                            <p class="card-text"><small>20 Mins</small></p>
+                              <a href="#" class="btn btn-primary">Order the IceCream</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="detail-col">
+                        <div class="card" style="width: 18rem;">
+                          <img src="image/detail2.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h4 class="card-title">Easy No-Cook Chocolate Ice Cream</h4>
+                            <p class="card-text"><small>10 Mins</small></p>
+                             <a href="#" class="btn btn-primary">Order the IceCream</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="detail-col">
+                        <div class="card" style="width: 18rem;">
+                          <img src="image/detail3.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h4 class="card-title">No-Churn Pistachio Ice Cream (5 Ingredients!)</h4>
+                            <p class="card-text"><small>17 Mins</small></p> 
+                            <a href="#" class="btn btn-primary">Order the IceCream</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="detail-col">
+                        <div class="card" style="width: 18rem;">
+                          <img src="image/detail4.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h4 class="card-title">Neapolitan Ice Cream(Flavors)</h4>
+                            <p class="card-text"><small>35 Mins</small></p> 
+                            <a href="#" class="btn btn-primary">Order the IceCream</a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="row row-cols-md-2 row-cols-lg-4 g-4">
+                      <div class="detail-col">
+                        <div class="card" style="width: 18rem;">
+                          <img src="image/detail5.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h4 class="card-title">Glossary of Frozen Desserts</h4>
+                            <p class="card-text"><small>10 Mins</small></p>
+                              <a href="#" class="btn btn-primary">Order the IceCream</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="detail-col">
+                        <div class="card" style="width: 18rem;">
+                          <img src="image/detail6.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h4 class="card-title">Ice Cream Tips and Hints</h4>
+                            <p class="card-text"><small>12 Mins</small></p>
+                             <a href="#" class="btn btn-primary">Order the IceCream</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="detail-col">
+                        <div class="card" style="width: 18rem;">
+                          <img src="image/detail7.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h4 class="card-title">Ice Cream Bread Recipe</h4>
+                            <p class="card-text"><small>40 Mins</small></p> 
+                            <a href="#" class="btn btn-primary">Order the IceCream</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="detail-col">
+                        <div class="card" style="width: 18rem;">
+                          <img src="image/detail8.jfif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h4 class="card-title">Easy Vanilla Ice Cream Recipe (No Cook!)</h4>
+                            <p class="card-text"><small>5 Mins</small></p> 
+                            <a href="#" class="btn btn-primary">Order the IceCream</a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  
+                 
+                </section>
+
+                <section id="footer-section">
+                  <div class="footer-container">
+                    <div class="footer-row">
+
+                      <div class="footer-col">
+                        <h4>ABOUT</h4>
+                        <p>BLOG</p>
+                        <p>CAREER</p>
+                        <p>TERMS&CONDITION</p>
+                      </div>
+
+                      <div class="footer-col">
+                        <h4>PRODUCTS</h4>
+                        <p>FLAVOURS</p>
+                        <p>ICE-CREAM DESSERTS</p>
+                        <p>ICE-CREAM CONES&CUPS</p>
+                      </div>
+
+                      <div class="footer-col">
+                        <h4>EXPLORE</h4>
+                        <P>CONES</P>
+                        <P>FAMILY</P>
+                        <P>RECIPE</P>
+                      </div>
+
+                      <div class="footer-col1">
+                        <h4>CONTACT</h4>
+                        <p><i class="fa fa-phone-square" aria-hidden="true" style="color: rgb(12, 12, 153);"></i></p>
+                        <p><i class="fa fa-whatsapp" aria-hidden="true" style="color: rgb(9, 56, 9);"></i></p>
+                        <p> <i class="fa fa-instagram" aria-hidden="true" style="color: rgb(100, 11, 11);"></i></p>
+                      </div>
+
+                   </div>
+                  </div>
+                </section>
+
+			</body>
+</html>
